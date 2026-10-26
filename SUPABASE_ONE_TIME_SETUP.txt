@@ -1,0 +1,9 @@
+V14 STAFF LOGIN-FREE SETUP
+
+1. In Supabase Dashboard > Authentication > Sign In / Providers, enable Allow anonymous sign-ins.
+2. Ensure the V5 supabase_setup.sql was already run. No SQL migration required for anonymous sessions; they use the authenticated role and existing RLS policies.
+3. Deploy this ZIP to Netlify. Staff browsers automatically create separate anonymous Supabase sessions.
+4. For approvals, create one normal email/password admin user in Supabase Auth, assign admin role as described in the existing supabase_setup.sql and sign in using the optional Admin sign-in.
+5. Proposals from staff are pending until admin approval; only after approval do translations become shared.
+6. Anyone with the public website link can submit proposals. Do not remove the approval process. If that risk is unacceptable, enable Netlify access control or require staff logins.
+7. Test on two browsers and in the Supabase products/proposals tables. A new anonymous browser has no auto-admin privileges.

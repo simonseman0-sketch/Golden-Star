@@ -1,0 +1,1 @@
+V48: Correct ZXing NotFound diagnostics (normal no-barcode frame is not a decoder error); alternate full-frame and middle-crop decoding on the live stream. Existing product lookup and Add to Order unchanged. Requires physical iPhone test for confirmation.

@@ -1,0 +1,458 @@
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#153b2a;background:#f5f7f5}*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.55}.wrap{max-width:1010px;margin:auto;padding:0 18px}.bar{background:#113e2b;color:#fff}.barinner{display:flex;align-items:center;gap:16px;min-height:62px}.bar span{font-size:12px;opacity:.72;font-weight:500}.bar a{color:#c8efda;text-decoration:none;font-size:13px}.bar .right{margin-left:auto;display:flex;align-items:center;gap:10px}.out{background:transparent;border:1px solid #89aa96;color:#fff;border-radius:8px;padding:7px 12px}.eyebrow{color:#3e8160;font-size:11px;font-weight:900;letter-spacing:1.6px}.hero{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;margin:30px 0 18px}.hero h1{font-size:clamp(25px,4vw,36px);margin:6px 0}.hero p{color:#698170;margin:0}.status{font-size:12px;color:#637e6a}.panel,.loginpanel{background:#fff;border:1px solid #d9e7de;border-radius:15px;padding:22px;margin:14px 0;box-shadow:0 8px 25px rgba(21,58,33,.045)}.sectiontop{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.sectiontop h2{margin:0;font-size:18px}input,select,textarea{display:block;width:100%;padding:12px;border:1px solid #cddcd2;border-radius:9px;background:#fff;margin:6px 0 11px;color:#1f3b2d}input:focus,select:focus,textarea:focus{outline:2px solid #8ac4a1;outline-offset:1px}label{display:block;font-size:12px;font-weight:750;color:#496e56;margin-top:12px}.primary,.secondary{padding:11px 15px;border-radius:9px;font-weight:750}.primary{background:#11603d;color:#fff;border:1px solid #11603d}.secondary{background:#fff;color:#14533a;border:1px solid #bdd3c4}.primary:hover{background:#0c4c30}.inlineButtons{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}.big{padding:15px 23px}.block{width:100%;margin-top:17px}.muted{color:#688075;font-size:13px;line-height:1.5}.small{font-size:12px}.error{color:#a43d21;font-size:13px;min-height:10px}.success{color:#117347}.loginpanel{max-width:440px;margin:8vh auto 0;padding:35px}.loginpanel h1{margin:9px 0}.loginlogo{max-width:145px;height:65px;object-fit:contain;display:block;margin:0 0 18px}.address{min-height:18px}.inset{border:1px solid #d6e4da;background:#f9fcf9;padding:16px;border-radius:12px;margin-top:12px}.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}.checkrow label{display:flex;align-items:center;gap:8px;font-weight:600}.checkrow input{width:auto;margin:0}.pill{background:#eaf4ec;padding:8px 13px;border-radius:12px;font-size:12px;font-weight:800}.results{max-height:370px;overflow:auto}.resultrow,.basketrow{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #e8ede9}.productInfo{flex:1;min-width:0}.productInfo strong{display:block;font-size:14px}.productInfo small{display:block;color:#667e6e;font-size:12px;margin-top:4px;overflow-wrap:anywhere}.productInfo .ar{font-size:13px;direction:rtl;text-align:left;font-weight:600}.smallbutton{padding:9px 11px;border:1px solid #bfd5c5;border-radius:8px;background:#ecf5ee;color:#155235;font-size:13px;font-weight:800;white-space:nowrap}.qty{width:80px;text-align:center;margin:0;flex:none;font-weight:800}.remove{border:0;background:transparent;color:#a52f2f;font-size:13px;text-decoration:underline}.empty{padding:18px 0;color:#839188}.history{display:grid;gap:7px}.historyrow{display:flex;gap:12px;justify-content:space-between;border-bottom:1px solid #e8eee9;padding:10px 0}.historyrow button{white-space:nowrap}.skucheck{color:#986e26;font-weight:750}footer{display:flex;justify-content:space-between;gap:12px;color:#779083;font-size:12px;padding:24px 0 45px}#printCanvas{display:none}@media(max-width:650px){.two{grid-template-columns:1fr;gap:0}.sectiontop h2{font-size:16px}.panel{padding:15px}.resultrow,.basketrow{gap:6px}.smallbutton{padding:7px 8px}.hero{display:block}.qty{width:66px}footer{display:block}}
+@media print{ @page{size:letter;margin:.5in} html,body{background:#fff!important} body>*:not(#printCanvas){display:none!important} #printCanvas{display:block!important;color:#000;font:12px Arial,sans-serif} .printPage{page-break-after:always;break-after:page}.printPage:last-child{page-break-after:auto;break-after:auto}.printTitle{display:flex;justify-content:space-between;border-bottom:2px solid #174e33;padding-bottom:10px;margin-bottom:12px}.printTitle h1{font-size:19px;margin:0}.printTitle small{color:#555}.printMeta{font-size:12px;margin:3px 0}.printPage table{border-collapse:collapse;width:100%;margin-top:18px}.printPage th,.printPage td{padding:7px;border-bottom:1px solid #bbb;text-align:left;vertical-align:top}.printPage th:last-child,.printPage td:last-child{text-align:right}.arcell{font-family:Tahoma,Arial,'Noto Naskh Arabic',sans-serif;direction:rtl;unicode-bidi:isolate;text-align:right;font-size:13px;margin-top:4px}.warnprint{color:#884700;font-size:10px}.printFoot{margin-top:18px;font-size:11px;border-top:1px solid #ddd;padding-top:8px}}
+[hidden]{display:none!important}
+
+.adminResults{max-height:240px;overflow:auto;display:grid;gap:3px}.adminresult{text-align:left;padding:9px;border:1px solid #dce9df;background:#f9fcf9;border-radius:6px;color:#234b34}#adminEditor{scroll-margin-top:20px}
+
+/* Instant customer search / one-click selection */
+.storeMatches{max-height:330px;overflow-y:auto;border:1px solid #bad5c4;border-radius:10px;margin:0 0 10px;background:#fff;box-shadow:0 9px 20px rgba(16,60,35,.09)}
+.storeMatches[hidden]{display:none}
+.storeOption{display:block;text-align:left;width:100%;padding:12px 14px;background:#fff;border:0;border-bottom:1px solid #e5eee8;color:#1f3b2d;cursor:pointer}
+.storeOption:hover,.storeOption.active{background:#e9f5eb}
+.storeOption strong,.storeOption small{display:block}
+.storeOption small{color:#688075;margin-top:4px;font-size:12px}
+.selectedStore{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#eff8f1;padding:12px 14px;border:1px solid #c6dfcd;border-radius:9px}
+.selectedStore strong,.selectedStore small{display:block}
+.selectedStore small{font-size:12px;color:#688075;margin-top:3px}
+.selectedStore button{white-space:nowrap}
+
+/* Direct per-product case entry; existing increment buttons remain available */
+.quickqty{display:flex;align-items:center;gap:5px;flex:none}.quickqtyinput{width:74px;min-width:0;margin:0;padding:9px 6px;text-align:center;font-weight:700}.quickqty .setqtybutton{background:#d6ecdf}.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:650px){.resultrow{flex-wrap:wrap}.resultrow .productInfo{flex-basis:100%}.quickqty{margin-left:auto}.quickqtyinput{width:83px}}
+
+.invoiceGroupHeader{margin:14px 0 5px;padding:9px 12px;background:#e8f3ed;border-left:5px solid #23664c;font-weight:800;color:#174b37;border-radius:5px}.invoicePrintTitle{font-size:15pt;background:#eaeaea;padding:8px;margin:18px 0 6px;break-after:avoid}#invoiceBreakBtn{border:2px solid #23664c;font-weight:800}#invoiceGroupStatus{align-self:center}
+
+/* Paper packing checklist on both full and spices-only printouts */
+@media print{.printPage table th.pickCheck,.printPage table td.pickCheck{width:49px;text-align:center}.emptyCheck{width:15px;height:15px;border:1.6px solid #333;display:inline-block;vertical-align:middle}.printPage table{break-inside:auto}.printPage tr{break-inside:avoid;page-break-inside:avoid}}
+/* PDF export is laid out off-screen rather than using window.print */
+.pdfExport{position:fixed;left:0;top:0;width:770px;background:white;color:#111;font:12px Arial,sans-serif;padding:22px;z-index:2147483647;max-height:none;visibility:visible;opacity:1;pointer-events:none}
+.pdfExport .printPage{width:100%;background:white;page-break-after:always;break-after:page}
+.pdfExport .printTitle{display:flex;justify-content:space-between;border-bottom:2px solid #174e33;padding-bottom:10px;margin-bottom:12px}
+.pdfExport .printTitle h1{font-size:19px;margin:0}.pdfExport .printTitle small{color:#555}
+.pdfExport .printMeta{font-size:12px;margin:3px 0}
+.pdfExport table{border-collapse:collapse;width:100%;margin-top:18px}
+.pdfExport th,.pdfExport td{padding:7px;border-bottom:1px solid #bbb;text-align:left;vertical-align:top}
+.pdfExport th:last-child,.pdfExport td:last-child{text-align:right}
+.pdfExport .arcell{font-family:Tahoma,Arial,sans-serif;direction:rtl;text-align:right;margin-top:4px}
+.pdfExport .invoicePrintTitle{font-size:19px;background:#eee;padding:8px;margin-top:18px}
+.pdfExport .printFoot{margin-top:18px;border-top:1px solid #ddd;padding-top:8px}
+.pdfExport th.pickCheck,.pdfExport td.pickCheck{width:49px;text-align:center}
+.pdfExport .emptyCheck{width:15px;height:15px;border:1.6px solid #333;display:inline-block;vertical-align:middle}
+
+/* Per-order sticker instruction: selectable in search and cart, visible on printout. */
+.stickerChoice{display:inline-flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap;font-size:13px;font-weight:700;color:#135636;cursor:pointer;padding:7px 6px;user-select:none}
+.stickerChoice input{width:18px;height:18px;margin:0;accent-color:#14633c;cursor:pointer}
+.stickerPrint{display:block;font-size:11px;font-weight:700;color:#000;border:2px solid #000;padding:3px 6px;margin:5px 0 3px;max-width:260px;background:#fff}
+@media print{.stickerPrint{color:#000!important;background:#fff!important;border:2px solid #000!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+@media(max-width:700px){.stickerChoice{font-size:12px;padding:5px 3px}}
+
+/* Automatic invoice groups: lightweight per-item correction, without changing search or translator */
+.categoryLabel{display:block;font-size:11px;margin-top:7px;color:#356448;font-weight:700}.categorySelect{width:min(320px,100%);padding:7px;margin:3px 0 0;border-color:#b9d4bf;font-size:12px;background:#f6fcf7}.basketrow .productInfo{min-width:190px}.basketrow{flex-wrap:wrap}@media print{.printPage{break-after:page;page-break-after:always}.printPage:last-child{break-after:auto;page-break-after:auto}}
+
+/* Meijer/Nino invoice group boundaries, without a forced new printed page. */
+.invoiceBreakDivider{display:flex;align-items:center;gap:13px;margin:21px 0 12px;color:#1b4e37;font:800 13px Arial,sans-serif;letter-spacing:1.1px;text-align:center;break-inside:avoid;page-break-inside:avoid}
+.invoiceBreakDivider:before,.invoiceBreakDivider:after{content:"";flex:1;border-top:2px dashed #1b4e37}
+.invoicePrintGroup .invoicePrintTitle{margin-top:9px}
+@media print{.invoiceBreakDivider{color:#000}.invoiceBreakDivider:before,.invoiceBreakDivider:after{border-top-color:#333}.invoicePrintGroup .invoicePrintTitle{break-after:avoid;page-break-after:avoid}}
+
+/* V24 - denser warehouse packing slip. Applies to printing AND PDF exports only.
+   Screen ordering experience and invoice classification are unchanged. */
+@media print {
+  @page { size:letter; margin:.34in .38in; }
+  #printCanvas { font:10.5px Arial,sans-serif; }
+  .printTitle { padding-bottom:4px; margin-bottom:6px; }
+  .printTitle h1 { font-size:15px; }
+  .printTitle small { font-size:9px; }
+  .printMeta { font-size:10px; line-height:1.2; margin:1px 0; }
+  .printPage table { margin-top:4px; table-layout:fixed; }
+  .printPage th,.printPage td { padding:3px 4px; line-height:1.15; font-size:10px; }
+  .printPage th.pickCheck,.printPage td.pickCheck { width:40px; }
+  .printPage th:nth-child(2),.printPage td:nth-child(2) { width:77px; }
+  .printPage th:last-child,.printPage td:last-child { width:69px; }
+  .arcell { font-size:11px; line-height:1.12; margin-top:1px; }
+  .emptyCheck { width:12px; height:12px; border-width:1.25px; }
+  .invoicePrintTitle { font-size:12px; padding:2px 4px; margin:7px 0 2px!important; }
+  .invoiceBreakDivider { margin:7px 0 5px; gap:8px; font-size:10px; letter-spacing:.5px; }
+  .invoicePrintGroup .invoicePrintTitle { margin-top:3px!important; }
+  .stickerPrint { font-size:9px; border-width:1px!important; padding:2px 4px; margin:2px 0 1px; }
+  .warnprint { font-size:8px; }
+  .printFoot { display:none!important; }
+}
+.pdfExport { font-size:10.5px; padding:13px; }
+.pdfExport .printTitle { padding-bottom:4px; margin-bottom:6px; }
+.pdfExport .printTitle h1 { font-size:15px; }
+.pdfExport .printTitle small { font-size:9px; }
+.pdfExport .printMeta { font-size:10px; line-height:1.2; margin:1px 0; }
+.pdfExport table { margin-top:4px; table-layout:fixed; }
+.pdfExport th,.pdfExport td { padding:3px 4px; line-height:1.15; font-size:10px; }
+.pdfExport th.pickCheck,.pdfExport td.pickCheck { width:40px; }
+.pdfExport th:nth-child(2),.pdfExport td:nth-child(2) { width:77px; }
+.pdfExport th:last-child,.pdfExport td:last-child { width:69px; }
+.pdfExport .arcell { font-size:11px; line-height:1.12; margin-top:1px; }
+.pdfExport .emptyCheck { width:12px; height:12px; border-width:1.25px; }
+.pdfExport .invoicePrintTitle { font-size:12px; padding:2px 4px; margin:7px 0 2px; }
+.pdfExport .invoiceBreakDivider { margin:7px 0 5px; gap:8px; font-size:10px; letter-spacing:.5px; }
+.pdfExport .invoicePrintGroup .invoicePrintTitle { margin-top:3px; }
+.pdfExport .stickerPrint { font-size:9px; border-width:1px; padding:2px 4px; margin:2px 0 1px; }
+.pdfExport .printFoot { display:none; }
+
+/* V25 — readable warehouse print, retaining compact invoice break spacing. */
+@media print {
+  #printCanvas { font:12px Arial,sans-serif; }
+  .printTitle h1 {font-size:18px;}
+  .printTitle small {font-size:10.5px;}
+  .printMeta {font-size:11.5px;line-height:1.22;}
+  .printPage th,.printPage td {font-size:12px;line-height:1.2;padding:3px 4px;}
+  .printPage th:nth-child(2),.printPage td:nth-child(2) {width:74px;}
+  .printPage th:last-child,.printPage td:last-child {width:80px;font-weight:700;}
+  .arcell {font-size:13.5px;line-height:1.19;margin-top:2px;font-weight:600;}
+  .emptyCheck {width:14px;height:14px;}
+  .invoicePrintTitle {font-size:14px;}
+  .invoiceBreakDivider {font-size:11px;}
+  .stickerPrint {font-size:10px;}
+  .warnprint {font-size:9.5px;}
+}
+.pdfExport {font-size:12px;}
+.pdfExport .printTitle h1 {font-size:18px;}
+.pdfExport .printTitle small {font-size:10.5px;}
+.pdfExport .printMeta {font-size:11.5px;line-height:1.22;}
+.pdfExport th,.pdfExport td {font-size:12px;line-height:1.2;padding:3px 4px;}
+.pdfExport th:nth-child(2),.pdfExport td:nth-child(2) {width:74px;}
+.pdfExport th:last-child,.pdfExport td:last-child {width:80px;font-weight:700;}
+.pdfExport .arcell {font-size:13.5px;line-height:1.19;margin-top:2px;font-weight:600;}
+.pdfExport .emptyCheck {width:14px;height:14px;}
+.pdfExport .invoicePrintTitle {font-size:14px;}
+.pdfExport .invoiceBreakDivider {font-size:11px;}
+.pdfExport .stickerPrint {font-size:10px;}
+.pdfExport .warnprint {font-size:9.5px;}
+
+/* V26: warehouse print readability — ONLY product-name font sizes changed. */
+@media print {
+  #printCanvas .printEnglishName {font-size:15px;font-weight:800;line-height:1.17;display:block;}
+  #printCanvas .arcell {font-size:16px;line-height:1.19;}
+}
+.pdfExport .printEnglishName {font-size:15px;font-weight:800;line-height:1.17;display:block;}
+.pdfExport .arcell {font-size:16px;line-height:1.19;}
+
+/* V27 — targeted warehouse typography adjustment; all other behavior preserved. */
+@media print {
+  #printCanvas .printEnglishName {font-size:12px;font-weight:400;line-height:1.2;}
+  #printCanvas .arcell {font-size:16px;line-height:1.19;}
+  #printCanvas .printPage td:last-child {font-size:14pt;font-weight:700;white-space:nowrap;}
+}
+.pdfExport .printEnglishName {font-size:12px;font-weight:400;line-height:1.2;}
+.pdfExport .arcell {font-size:16px;line-height:1.19;}
+.pdfExport .printPage td:last-child {font-size:14pt;font-weight:700;white-space:nowrap;}
+
+/* V42: single optional barcode entry point; existing order form untouched. */
+.barcodeSearchRow{display:flex;gap:9px;align-items:stretch}.barcodeSearchRow #productFind{flex:1;min-width:0}.barcodeSearchRow button{white-space:nowrap}
+.barcodeOverlay:not([hidden]){position:fixed;inset:0;z-index:99990;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.72);padding:12px}
+.barcodeDialog{width:min(100%,520px);max-height:95dvh;overflow:auto;background:var(--surface,#fff);color:var(--ink,#18271e);background-color:#fff;border-radius:15px;padding:17px;box-shadow:0 18px 80px #0005}
+.barcodeDialogTop{display:flex;justify-content:space-between;align-items:center;gap:8px}.barcodeDialogTop h2{font-size:19px;margin:0}.barcodeDialogTop button{white-space:nowrap}
+.barcodeCamera{width:100%;min-height:110px;overflow:hidden;border-radius:10px;background:#172720;margin-top:10px;color:#fff}.barcodeCamera video{width:100%!important;height:auto!important;max-height:45dvh;object-fit:cover}
+.barcodeManual{margin-top:12px}.barcodeManualRow{display:flex;gap:8px}.barcodeManualRow input{flex:1;min-width:0}.barcodeMatched{margin-top:12px;padding:12px;border:1px solid #cfdbd2;border-radius:10px;background:#f5faf6}.barcodeMatched[hidden]{display:none}.barcodeMatched label{display:block;margin-top:9px}.barcodeMatched input{width:100%;margin-bottom:10px}.barcodeFeedback{font-weight:600;min-height:20px;margin:10px 0 0}.barcodeOverlay[hidden]{display:none}
+@media(max-width:490px){.barcodeSearchRow button{font-size:12px;padding:8px 10px}.barcodeDialog{padding:12px}}
+
+/* V43 wider UPC viewfinder and still-photo option */
+.barcodePhotoFallback{margin-top:12px;padding:11px;background:#f5f8f6;border-radius:9px}
+.barcodePhotoFallback label{display:block;font-size:13px;font-weight:650;margin-bottom:6px}
+.barcodePhotoFallback input{width:100%;font-size:13px}
+.barcodeCamera video{object-fit:contain!important;max-height:40dvh!important}
+
+/* V52: Mobile-first scanner; results visible without scrolling below the tools. */
+.barcodeDialog{width:min(100%,460px);padding:14px;max-height:calc(100dvh - 20px);overscroll-behavior:contain}
+.barcodeDialogTop{position:sticky;top:-14px;z-index:7;background:#fff;padding:4px 0 11px}
+.barcodeDialogTop h2{font-size:19px;letter-spacing:-.35px}
+.barcodeDialogTop button{min-height:42px}
+.barcodeHint{font-size:12px;line-height:1.35;color:#60766a;margin:1px 0 10px}
+.barcodeStage{position:relative;border-radius:15px;overflow:hidden;background:#10261d}
+.barcodeStage .barcodeCamera{margin:0;min-height:225px;height:clamp(220px,34dvh,310px);border-radius:0;display:flex;justify-content:center;align-items:center}
+.barcodeStage .barcodeCamera video{width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important}
+.barcodeStage .barcodeCamera canvas{max-width:100%!important}
+.barcodeScanStatus{font-size:11px;line-height:1.3;color:#697c71;margin:8px 2px 10px;max-height:2.6em;overflow:hidden}
+.barcodeNotice:not([hidden]){display:flex;gap:9px;align-items:start;justify-content:space-between;position:absolute;left:9px;right:9px;bottom:10px;z-index:5;border-radius:11px;padding:12px 11px;box-shadow:0 8px 28px #0008;background:#fff9f4;color:#782921;border-left:5px solid #c34330;}
+.barcodeNotice[data-kind="success"]{background:#e9faed;border-color:#1b8050;color:#17573b}
+.barcodeNoticeCopy{min-width:0;display:grid;gap:3px}
+.barcodeNoticeTitle{font-weight:800}
+#barcodeNoticeTitle{font-size:17px;font-weight:800;line-height:1.2}
+#barcodeNoticeDetail{font-size:12px;line-height:1.3;overflow-wrap:anywhere}
+#barcodeNoticeDismiss{flex-shrink:0;min-width:35px;height:35px;border:0;background:transparent;color:inherit;font-size:19px;cursor:pointer}
+.barcodeMatched{margin:7px 0 10px;padding:12px;background:#f0f9f2;border-color:#b4d9bc}
+.barcodeFoundLabel{color:#187144;font-weight:800;font-size:11px;letter-spacing:1px;margin-bottom:4px}
+#barcodeProductDetails strong{font-size:16px;line-height:1.2;display:block}
+#barcodeProductDetails [lang="ar"]{font-size:13px;margin-top:4px}
+.barcodeMatched label{font-size:12px;margin:9px 0 5px}
+.barcodeOrderRow{display:flex;align-items:stretch;gap:8px}
+.barcodeOrderRow input{width:84px;flex:0 0 84px;min-width:0;margin:0!important;font-size:18px;text-align:center;font-weight:700}
+.barcodeOrderRow button{flex:1;min-width:0;min-height:46px;font-size:15px;font-weight:800}
+.barcodeMore{margin-top:7px;border:1px solid #dae5dd;border-radius:11px;background:#fff;overflow:hidden}
+.barcodeMore summary{cursor:pointer;list-style:none;font-size:13px;font-weight:700;padding:12px 13px;color:#325e46}
+.barcodeMore summary::after{content:'⌄';float:right;font-size:17px}
+.barcodeMore[open] summary::after{content:'⌃'}
+.barcodeMore .barcodePhotoFallback{margin:0 10px 8px}
+.barcodeMore .barcodeManual{margin:0 10px 12px}
+.barcodeFeedback[hidden],.barcodeNotice[hidden]{display:none!important}
+@media(max-width:490px){.barcodeOverlay:not([hidden]){padding:6px;align-items:center}.barcodeDialog{padding:11px;border-radius:17px;max-height:calc(100dvh - 12px)}.barcodeDialogTop{top:-11px}}
+
+/* V53 iPhone fix: Quagga appends a video and one or more overlay canvases.
+   Never lay them out as flex siblings; they must occupy the SAME camera rectangle. */
+.barcodeStage .barcodeCamera{
+  position:relative!important;display:block!important;width:100%!important;
+  height:clamp(220px,34dvh,310px)!important;min-height:0!important;
+  overflow:hidden!important;background:#10261d!important;
+}
+.barcodeStage .barcodeCamera video,
+.barcodeStage .barcodeCamera canvas{
+  position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:0!important;
+  display:block!important;width:100%!important;height:100%!important;
+  min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;
+  margin:0!important;padding:0!important;transform:none!important;
+}
+.barcodeStage .barcodeCamera video{object-fit:cover!important;z-index:1}
+.barcodeStage .barcodeCamera canvas{pointer-events:none!important;z-index:2;object-fit:fill!important}
+
+/* V68 — SALES REP SCREEN ONLY. Visual overrides. No JavaScript, HTML, printing or PDF changes. */
+@media screen {
+  :root {color:#14253c;background:#f3f5f9}
+  body {background:#f3f5f9;color:#14253c;-webkit-tap-highlight-color:transparent}
+  .bar {background:#10233f;box-shadow:0 2px 12px rgba(8,29,54,.12)}
+  .barinner {min-height:60px}
+  .barinner strong {font-size:13px;letter-spacing:.7px;color:#f6f8fc}
+  .bar span {color:#d1b579;opacity:1}
+  .bar a {color:#e5d2a6}
+  .out {border-color:#53637a;border-radius:11px}
+  .eyebrow {color:#a98034;font-weight:900;letter-spacing:1.5px}
+  .hero {margin:24px 0 15px;align-items:center}
+  .hero h1 {font-weight:850;letter-spacing:-.8px;color:#10233f}
+  .hero p {color:#6b7789}
+  .status {padding:8px 11px;border-radius:999px;border:1px solid #e4dfd1;background:#fffaf0;color:#8f681f;font-weight:700;white-space:nowrap}
+  .panel,.loginpanel {border:1px solid #e2e7ef;border-radius:18px;box-shadow:0 6px 24px rgba(16,35,63,.045);background:#fff}
+  .sectiontop h2 {color:#122b4a;font-weight:850;letter-spacing:-.3px}
+  label {color:#53647a}
+  input,select,textarea {background:#fff;border-color:#d9e0e9;color:#10233f;border-radius:11px}
+  input:focus,select:focus,textarea:focus {outline:2px solid rgba(180,141,65,.45);border-color:#ba974e}
+  input::placeholder,textarea::placeholder {color:#8a95a5}
+  .primary,.secondary,.smallbutton {border-radius:11px;transition:background-color .12s,border-color .12s;touch-action:manipulation}
+  .primary {background:#102c50;border-color:#102c50;color:white}
+  .primary:hover {background:#1a406e;border-color:#1a406e}
+  .secondary,.smallbutton {background:#fff;border-color:#d4deeb;color:#183a61}
+  .secondary:hover,.smallbutton:hover {background:#f2f6fb;border-color:#b7c6d7}
+  .pill {color:#886222;background:#fbf5e7;border:1px solid #eddfbf;border-radius:999px}
+  .inset {background:#f8fafc;border-color:#e2e9f0}
+  .muted,.small {color:#68788b}
+  .resultrow,.basketrow {border-bottom-color:#e9edf4}
+  .productInfo strong {color:#132d4d;font-weight:800}
+  .productInfo small {color:#718095}
+  .productInfo .ar {color:#5c6880}
+  .quickqtyinput,.qty {background:#fff;border:1px solid #d6deea;border-radius:10px;color:#102b4a}
+  .quickqty .setqtybutton {background:#e9f0fb;color:#173d69;border-color:#bbd0e9}
+  .stickerChoice {color:#6f541a;background:#fff9ed;border:1px solid #eadcba;border-radius:9px;padding:7px 9px}
+  .stickerChoice input {accent-color:#b18b3c}
+  .categoryLabel {color:#64768a}
+  .categorySelect {border-color:#d7e2ed;background:#f7faff}
+  .invoiceGroupHeader {background:#f5f0e5;border-left-color:#b58f43;color:#6f541d}
+  #invoiceBreakBtn {border-color:#b58f43;color:#7f6125}
+  .selectedStore {background:#f3f7fd;border-color:#cbd9eb}
+  .selectedStore small {color:#6d7d90}
+  .storeMatches {border-color:#d6e1ed;box-shadow:0 12px 26px rgba(18,44,76,.1)}
+  .storeOption {color:#1c3656;border-bottom-color:#e7ecf2}
+  .storeOption:hover,.storeOption.active {background:#f1f6fc}
+  .historyrow {border-bottom-color:#e9edf4}
+  .adminresult {background:#f8fafd;border-color:#e3eaf3;color:#143457}
+  footer {color:#8390a1}
+  .barcodeDialog {color:#14253c}
+  .barcodeDialogTop h2 {color:#102b4a}
+  .barcodeFoundLabel {color:#94702b}
+  .barcodeMore summary {color:#183a61}
+}
+@media screen and (max-width:650px) {
+  html {scroll-padding-top:72px}
+  .wrap {padding-left:13px;padding-right:13px}
+  .barinner {min-height:55px;gap:7px}
+  .barinner strong {font-size:11px;letter-spacing:.1px;flex:1;min-width:0;text-align:center}
+  .bar span {font-size:10px}
+  .bar a {font-size:10px;max-width:88px;line-height:1.25}
+  .bar .right {gap:5px;margin-left:0;max-width:105px}
+  .bar .right #loggedAs {font-size:10px;max-width:61px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .out {padding:7px 8px;font-size:11px;white-space:nowrap}
+  .hero {display:flex;margin:16px 0 10px;align-items:center;gap:8px}
+  .hero h1 {font-size:25px;margin:4px 0 3px}
+  .hero p {font-size:11px;line-height:1.4}
+  .hero .eyebrow {font-size:9px}
+  .status {padding:6px 8px;font-size:10px}
+  .panel {padding:15px 13px;margin:10px 0;border-radius:17px}
+  .sectiontop {margin-bottom:10px;gap:7px}
+  .sectiontop h2 {font-size:16px}
+  .sectiontop .secondary {font-size:11px;padding:9px 10px}
+  input,select,textarea {font-size:16px;min-height:44px;padding:10px 12px;margin:5px 0 10px}
+  label {font-size:12px}
+  button {min-height:40px}
+  .primary,.secondary {padding:10px 12px;font-size:13px}
+  .pill {font-size:10px;padding:7px 9px;white-space:normal;text-align:center}
+  .barcodeSearchRow {gap:7px;align-items:stretch}
+  .barcodeSearchRow #productFind {min-width:0;flex:1}
+  .barcodeSearchRow #openBarcodeScanner {max-width:123px;white-space:normal;line-height:1.2;font-size:12px;padding:7px 8px}
+  .results {max-height:49dvh;overscroll-behavior:contain}
+  .resultrow,.basketrow {gap:7px;padding:11px 0}
+  .resultrow .productInfo {flex:1 1 100%;min-width:0}
+  .productInfo strong {font-size:13.5px;line-height:1.35}
+  .productInfo small {font-size:11px;line-height:1.35}
+  .productInfo .ar {font-size:12px}
+  .quickqty {margin-left:auto;gap:5px}
+  .quickqtyinput {width:67px;min-height:39px;font-size:16px}
+  .smallbutton {min-height:39px;padding:8px 10px;font-size:12px}
+  .basketrow .productInfo {min-width:0;flex:1 1 100%}
+  .qty {width:71px;min-height:41px}
+  .stickerChoice {font-size:11px;padding:7px}
+  .inlineButtons {gap:7px}
+  #submitOrder {width:100%;min-height:52px;font-size:16px;font-weight:850;background:#b08a3b;border-color:#b08a3b;color:#fff;order:-1}
+  #submitOrder:hover {background:#947125;border-color:#947125}
+  #printList,#printSpices {flex:1 1 44%}
+  #clearOrder {margin-left:auto}
+  .loginpanel {margin:30px auto;padding:23px 17px}
+  footer {font-size:11px;line-height:1.7}
+}
+
+/* V69: visual re-layout matching the approved iPhone 16 navy/gold three-screen reference.
+   All existing JavaScript, original control IDs, form mechanics, printing, and API calls are retained. */
+@media screen {
+:root{background:#061421;color:#eef4fb;--gold:#fac65b;--navy:#061421}
+html{scroll-behavior:smooth;scroll-padding-top:105px}
+body{background:#061421;color:#eef4fb}
+.bar{background:#03101e;border-bottom:1px solid #263744;box-shadow:none}
+.barinner{min-height:82px;justify-content:space-between}
+.siteBrand{display:flex;align-items:center;justify-content:center;min-width:0;flex:1}
+.siteBrand img{width:190px;max-width:100%;height:67px;object-fit:contain}
+.siteBrand .brandDesktop{display:none}
+.bar .back{color:#ffcf64;font-size:12px}
+.bar .right{margin-left:0}
+.out{color:#f2c45e;border-color:#987332;background:transparent}
+.mobileTopTabs{display:flex;gap:10px;padding:15px 0 5px}
+.mobileTopTabs a{flex:1;text-align:center;text-decoration:none;padding:13px 10px;font-size:13px;font-weight:800;border:1px solid #304355;border-radius:11px;color:#c6d1df;background:#0a1b2c}
+.mobileTopTabs a.selected{background:linear-gradient(#ffdc85,#f4b83e);color:#081626;border-color:#ffc75f}
+.hero{margin:13px 0 12px}
+.hero h1{color:#fff;font-size:25px}.hero p{color:#9baabd}.hero .eyebrow{color:#fac65b}
+.status,.pill{background:#101f2d;border:1px solid #384450;color:#f5c35b}
+.panel,.loginpanel{background:#071726;border:1px solid #203749;border-radius:16px;box-shadow:none}
+.sectiontop h2{color:#fff;font-weight:800}
+.sectiontop h2:first-letter{color:#fac65b}
+label,.categoryLabel{color:#c5d1e2}
+input,textarea,select{background:#0d2031!important;border:1px solid #324658!important;color:#f3f6fc!important}
+input::placeholder,textarea::placeholder{color:#92a2b4!important}
+input:focus,textarea:focus,select:focus{outline:2px solid #d5a54c!important;border-color:#fac65b!important}
+.primary{background:linear-gradient(180deg,#ffdc86,#f6bb48);color:#0c1927;border:1px solid #f9cb6b;font-weight:850}
+.primary:hover{background:#f4c75d;border-color:#f4c75d}
+.secondary,.smallbutton{background:#081828;border:1px solid #b88a36;color:#ffca64}
+.secondary:hover,.smallbutton:hover{background:#13293d;border-color:#ffdc88;color:#ffdc88}
+.muted,.small,.hero p{color:#9bafc2}
+.inset{background:#0d2030;border-color:#2f4354}
+.resultrow,.basketrow{border-bottom:1px solid #1a3444}
+.productInfo strong{color:#f2f5fa}.productInfo small{color:#a1b1c2}.productInfo .ar{color:#cad8e6}
+.quickqtyinput,.qty{background:#0f2233!important;border-color:#405368!important;color:#fff!important}
+.quickqty .setqtybutton{background:#21344a;color:#ffcf66;border-color:#b88a36}
+.stickerChoice{background:transparent;border:0;color:#f1d08c}
+.stickerChoice input{accent-color:#fac65b}
+.categorySelect{background:#0d2031!important;border-color:#40566a!important}
+.invoiceGroupHeader{background:#192a35;border-left-color:#f4c45a;color:#ffcd67}
+#invoiceBreakBtn{border-color:#edb747;color:#ffd16f}
+.selectedStore{background:#142a39;border-color:#3d586b}.selectedStore small{color:#afc1d3}
+.storeMatches{background:#102232;border-color:#304c5b}.storeOption{background:#102232;color:#f4f6f8;border-color:#304758}.storeOption.active,.storeOption:hover{background:#1d384a;color:white}
+.empty{color:#b4c1cf}
+.historyrow{border-color:#294154}.adminresult{background:#152938;border-color:#345267;color:#f3f5fa}
+footer{color:#91a1b3}
+.barcodeOverlay:not([hidden]){background:#000e1b}
+.barcodeDialog{background:#041322;color:#eaf0f8;border:1px solid #314452}
+.barcodeDialogTop{background:#041322}.barcodeDialogTop h2{color:#fff}
+.barcodeHint,.barcodeScanStatus{color:#b3c1ce}
+.barcodeStage{border:1px solid #304454;border-radius:15px}
+.barcodeStage::after{content:'';position:absolute;inset:15% 10%;z-index:3;pointer-events:none;border:3px solid #f8c55a;border-left-width:4px;border-right-width:4px;border-radius:15px;clip-path:polygon(0 0,22% 0,22% 8%,78% 8%,78% 0,100% 0,100% 100%,78% 100%,78% 92%,22% 92%,22% 100%,0 100%)}
+.barcodeMatched{background:#0c2030;border-color:#38536b}
+.barcodeFoundLabel{color:#ffcc60}
+.barcodeMore{background:#0c2031;border-color:#2f485b}.barcodeMore summary{color:#f6c862}
+.barcodePhotoFallback{background:#0d2132}
+.mobileBottomNav{display:none}
+}
+@media screen and (max-width:650px){
+body{padding-bottom:78px}
+.wrap{padding-left:12px;padding-right:12px}
+.bar{position:sticky;top:0;z-index:50}
+.barinner{min-height:76px;gap:5px}
+.siteBrand img{width:196px;height:73px}
+.bar .back{font-size:0;max-width:32px;width:32px;flex:0 0 32px}.bar .back::before{content:'←';font-size:24px;color:#f6c65a}
+.bar .right{max-width:58px;flex:0 0 58px;justify-content:flex-end}.bar .right #loggedAs{display:none}.out{font-size:9px;padding:7px 4px;min-height:32px}
+.mobileTopTabs{padding-top:11px;padding-bottom:2px}
+.hero{margin:10px 0 9px;gap:6px}.hero h1{font-size:21px}.hero p{font-size:11px}.status{font-size:10px}
+.panel{margin:10px 0;padding:13px 11px;border-radius:13px}
+.sectiontop{margin-bottom:12px}.sectiontop h2{font-size:17px}
+#orderItems{position:relative}
+#orderItems .barcodeSearchRow{display:grid;grid-template-columns:minmax(0,1fr) 133px;gap:8px}
+#productFind{min-height:48px;margin:0!important;font-size:13px;padding:9px!important}
+#openBarcodeScanner{max-width:none!important;font-size:12px!important;min-height:48px;border:1px solid #fac65b;border-radius:10px;white-space:normal}
+.results{max-height:52dvh}
+.resultrow{display:grid;grid-template-columns:minmax(0,1fr) 54px 40px 40px 40px;gap:5px;align-items:center;padding:10px 0}
+.resultrow .productInfo{grid-column:1/-1;min-width:0}
+.resultrow .productInfo strong{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.resultrow .productInfo small{font-size:10px;margin-top:2px}
+.resultrow .productInfo small.ar{display:none} /* original Arabic remains in DOM, scan and basket */
+.resultrow .stickerChoice{grid-column:1;grid-row:2;justify-content:flex-start;font-size:11px;padding:3px 0;white-space:nowrap}
+.resultrow .stickerChoice input{width:15px;height:15px}
+.resultrow .quickqty{grid-column:2;grid-row:2;margin:0;min-width:0}
+.resultrow .quickqtyinput{width:100%;min-height:38px;font-size:13px;padding:5px 2px!important;margin:0!important}
+.resultrow>.smallbutton{font-size:12px;min-height:37px;padding:5px 0;border-radius:8px}
+.resultrow>.smallbutton:nth-last-child(3){grid-column:3;grid-row:2}
+.resultrow>.smallbutton:nth-last-child(2){grid-column:4;grid-row:2}
+.resultrow>.smallbutton:last-child{grid-column:5;grid-row:2}
+#invoiceBreakBtn{width:100%;order:5;min-height:47px;background:#0c1926}
+#orderItems>.inlineButtons{display:flex;flex-wrap:wrap}
+#invoiceGroupStatus{font-size:10px;max-width:100%}
+.basketrow{gap:6px}.basketrow .productInfo{flex-basis:100%}.basketrow .productInfo strong{font-size:13px}
+.basketrow .stickerChoice{padding:5px 2px}
+.basketrow .smallbutton{min-height:36px;padding:5px 8px}
+.basketrow .qty{min-height:38px;width:60px}
+#submitOrder{background:linear-gradient(#ffdc85,#f5bb4e);color:#071523;border-color:#ffce62;min-height:53px}
+#orderReview .inlineButtons{display:flex}
+.barcodeOverlay:not([hidden]){padding:0;align-items:stretch}
+.barcodeDialog{width:100%;max-width:none;max-height:100dvh;border-radius:0;padding:15px 12px;overflow:auto}
+.barcodeDialogTop{top:-15px;padding:5px 0 14px}
+.barcodeDialogTop h2{font-size:19px}
+.barcodeStage .barcodeCamera{height:clamp(245px,35dvh,350px)!important}
+.barcodeMatched{padding:15px;border-radius:12px}
+.barcodeMatched #barcodeProductDetails strong{font-size:16px}
+.barcodeOrderRow #barcodeAddToOrder{background:linear-gradient(#ffdc85,#f3b94a);color:#041321}
+.mobileBottomNav{position:fixed;bottom:0;left:0;right:0;z-index:90;display:grid;grid-template-columns:repeat(4,1fr);height:calc(64px + env(safe-area-inset-bottom));padding-bottom:env(safe-area-inset-bottom);background:#05101e;border-top:1px solid #304154;box-shadow:0 -8px 30px #0006}
+.mobileBottomNav a{text-decoration:none;color:#a8b6c8;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:2px;font-size:10px;min-width:0}
+.mobileBottomNav a:first-child{color:#ffcf65;background:#0c1f30}
+.mobileBottomNav a span{font-size:22px;line-height:1.2}
+footer{padding-bottom:20px}
+}
+@media print{.mobileTopTabs,.mobileBottomNav{display:none!important}}
+
+/* V70: visibility-only refinements; no business logic modified. */
+.siteBrand img{filter:brightness(1.55) saturate(1.30);}
+#adminShortcut.adminShortcut{margin:36px 0 18px;padding:8px 0;background:transparent;border:0;box-shadow:none;text-align:center;font-weight:500;opacity:.55;}
+#adminShortcut.adminShortcut a{font-size:11px;color:#8fa0b5;text-decoration:none;}
+#adminShortcut.adminShortcut[hidden]{display:none!important;}
+@media(max-width:650px){#adminShortcut.adminShortcut{margin:42px 0 100px;opacity:.45;}}
+
+.loadedOrderNotice{margin:12px 0;padding:12px;border:1px solid #d6ab50;border-radius:10px;color:#ffd777;background:#152a39;font-weight:600}
+
+
+/* V76 header centering fix */
+.barinner{position:relative}
+.siteBrand{position:absolute;left:50%;transform:translateX(-50%);margin:0;pointer-events:none}
+.siteBrand img{display:block;margin:0 auto}
+.bar .back,.bar .right{position:relative;z-index:2}
+@media(max-width:650px){
+  .barinner{display:grid;grid-template-columns:58px 1fr 58px;align-items:center}
+  .bar .back{grid-column:1;justify-self:start}
+  .siteBrand{position:static;left:auto;transform:none;grid-column:2;justify-self:center;pointer-events:auto}
+  .bar .right{grid-column:3;justify-self:end;max-width:none;flex:0 0 auto}
+}
+@media(min-width:651px){
+  .barinner{display:grid;grid-template-columns:180px 1fr 180px;align-items:center}
+  .bar .back{grid-column:1;justify-self:start}
+  .siteBrand{position:static;left:auto;transform:none;grid-column:2;justify-self:center;pointer-events:auto}
+  .bar .right{grid-column:3;justify-self:end;margin-left:0;max-width:none}
+}
+
+/* V77: share action fits the existing responsive order action row */
+#shareWhatsApp{min-height:48px;font-weight:850}

@@ -1,0 +1,1 @@
+V66 from V64: only invoice numbering behavior changed. IIF TRNS and SPL DOCNUM columns blank, old #####-test validation removed, UI text updated. Product descriptions in SPL MEMO, price overrides, product matches and split logic unchanged. Use new generated IIF file, not an earlier -test file. Test imports in a QuickBooks backup first.

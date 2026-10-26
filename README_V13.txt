@@ -1,0 +1,1 @@
+V13: Printed packing slips and spices slips now have the store name in large type at top, no Golden Star logo in printed output, tighter page margins/spacing to save paper. Website logo remains unchanged. All invoice sections, item lines, notes, bilingual text, and sync code retained.

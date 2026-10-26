@@ -1,0 +1,1 @@
+V49 uses Quagga2 rather than ZXing for UPC/EAN camera and photo decoding. The existing Scan Barcode button, product matching, cases and Add to Order pipeline remain. No Supabase SQL changes. Requires HTTPS and camera permission. Phone scan must be verified after deployment.

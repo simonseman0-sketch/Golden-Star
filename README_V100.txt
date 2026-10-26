@@ -1,0 +1,1 @@
+V100: Meijer Dairy as its own invoice group (7), SKU 11257 belongs with Dubai / Angel Hair (3) across salesman, route manager, and PDF IIF importer. Kroger remains one invoice. No Supabase migration. Verify live exports in QuickBooks test company.

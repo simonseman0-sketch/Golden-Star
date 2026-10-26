@@ -1,0 +1,1 @@
+V105: invoice totals calculated from line items; QuickBooks source total read from separate text spans; UPC-A/EAN-13 auto detection/check-digit validation; existing V104 functionality preserved. Test with actual store scanner before production.

@@ -1,0 +1,1 @@
+V52 Mobile Barcode Scanner: based on V51. Unknown barcodes show prominently on the camera itself; found-product quantity and add controls appear immediately after the camera; photo and manual tools are collapsible. Duplicate UPCs never add. Existing Quagga2, GTIN matching and order submission logic preserved. No Supabase migration. Run live iPhone acceptance test before rollout.

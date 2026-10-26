@@ -1,0 +1,1409 @@
+[
+  {
+    "sku": "1154",
+    "en": "Gourme grilled chicken & potato curry",
+    "ar": "دجاج مشوي بالكاري والبطاطا غورمي",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Ground beef",
+    "ar": "لحم مفروم",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Ground chicken",
+    "ar": "دجاج مفروم",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Chicken shawarma",
+    "ar": "شاورما دجاج",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Beef shawarma",
+    "ar": "شاورما لحم",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1119",
+    "en": "Potato chop",
+    "ar": "جاپ بطاطا",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1120",
+    "en": "Kibbie halab",
+    "ar": "كبة حلب",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1121",
+    "en": "Kibbie krass",
+    "ar": "كبة كراص",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1125",
+    "en": "Falafel",
+    "ar": "فلافل",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1122",
+    "en": "Ground beef & lamb 5pcs",
+    "ar": "لحم مفروم بقر وغنم ٥ قطع",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1123",
+    "en": "Ground chicken 5pcs",
+    "ar": "دجاج مفروم ٥ قطع",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Beef burger",
+    "ar": "برغر لحم",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Okra one",
+    "ar": "بامية نمرة ١",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Okra zero",
+    "ar": "بامية نمرة ٠",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Pizza beef",
+    "ar": "بيتزا لحم",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Quails",
+    "ar": "سمان",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kubba rice",
+    "ar": "كبة تمن",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kubba almond & raisins",
+    "ar": "كبة لوز وزبيب",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kubba tobsi",
+    "ar": "كبة تبسي",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kubba mosul",
+    "ar": "كبة موصل",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kubba special",
+    "ar": "كبة خاصة",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Tikka",
+    "ar": "تكة",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Sesame beef",
+    "ar": "لحم بالسمسم",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Broad beans",
+    "ar": "باقلاء",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Mixed vegetables",
+    "ar": "خضرة مشكلة",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1165",
+    "en": "Samosa beef",
+    "ar": "سمبوسة لحم",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1164",
+    "en": "Samosa vegetables & mushrooms",
+    "ar": "سمبوسة خضرة وفطر",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1166",
+    "en": "Samosa chicken",
+    "ar": "سمبوسة دجاج",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1161",
+    "en": "Borek vegetable",
+    "ar": "بورك خضرة",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1175",
+    "en": "Lahamajeen",
+    "ar": "لحم بعجين",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "1142",
+    "en": "Ready meals chicken biryani",
+    "ar": "وجبة جاهزة برياني دجاج",
+    "category": "Ready Meals",
+    "notes": ""
+  },
+  {
+    "sku": "1139",
+    "en": "Ready meals chicken shawarma",
+    "ar": "وجبة جاهزة شاورما دجاج",
+    "category": "Ready Meals",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Ready meals beef biryani",
+    "ar": "وجبة جاهزة برياني لحم",
+    "category": "Ready Meals",
+    "notes": ""
+  },
+  {
+    "sku": "1138",
+    "en": "Ready meals beef shawarma",
+    "ar": "وجبة جاهزة شاورما لحم",
+    "category": "Ready Meals",
+    "notes": ""
+  },
+  {
+    "sku": "1140",
+    "en": "Ready meals tikka",
+    "ar": "وجبة جاهزة تكة",
+    "category": "Ready Meals",
+    "notes": ""
+  },
+  {
+    "sku": "1136",
+    "en": "Ready meals ground beef",
+    "ar": "وجبة جاهزة لحم مفروم",
+    "category": "Ready Meals",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kurdish yogurt drink smoking 16oz",
+    "ar": "شراب لبن كردي مدخن ١٦ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kurdish yogurt drink cup 10.1oz",
+    "ar": "شراب لبن كردي كاسة ١٠٫١ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kurdish yogurt drink 128oz",
+    "ar": "شراب لبن كردي ١٢٨ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kurdish yogurt drink 64oz",
+    "ar": "شراب لبن كردي ٦٤ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kurdish yogurt 17oz",
+    "ar": "لبن كردي ١٧ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kurdish yogurt 35oz",
+    "ar": "لبن كردي ٣٥ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Kurdish labneh thick & creamy yogurt 28oz",
+    "ar": "لبنة كردية كثيفة وكريمية ٢٨ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Chicago cheese original",
+    "ar": "جبن شيكاغو الأصلي",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Fresh cucumber pickles 1600",
+    "ar": "طرشي خيار طازج ١٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Fresh wild cucumber pickles 1600",
+    "ar": "طرشي خيار بري طازج ١٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Fresh mixed pickles 1600",
+    "ar": "طرشي مشكل طازج ١٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Fresh turnip pickles sliced 1600",
+    "ar": "طرشي شلغم مقطع ١٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Fresh cucumber pickles 600",
+    "ar": "طرشي خيار طازج ٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Stuffed wild cucumber 600",
+    "ar": "خيار بري محشي ٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green pepper pickles spicy 600",
+    "ar": "طرشي فلفل أخضر حار ٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green pepper pickles 600",
+    "ar": "طرشي فلفل أخضر ٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Jalapeno pickles 600",
+    "ar": "طرشي هالبينو ٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Najaf pickles vinegar 600",
+    "ar": "طرشي نجف بالخل ٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Falih mixed pickles mild 900",
+    "ar": "طرشي فالح مشكل خفيف ٩٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Mackdous 600",
+    "ar": "مكدوس ٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green olives kalamata 1600",
+    "ar": "زيتون أخضر كالاماتا ١٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Black olives kalamata 1600",
+    "ar": "زيتون أسود كالاماتا ١٦٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Black olives pitted 500",
+    "ar": "زيتون أسود بدون نوى ٥٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Black olives whole 500",
+    "ar": "زيتون أسود حب ٥٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green olives almond 500",
+    "ar": "زيتون أخضر باللوز ٥٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green olives garlic 500",
+    "ar": "زيتون أخضر بالثوم ٥٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green olives pitted 500",
+    "ar": "زيتون أخضر بدون نوى ٥٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green olives whole 500",
+    "ar": "زيتون أخضر حب ٥٠٠ غرام",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green olives whole plastic",
+    "ar": "زيتون أخضر حب علبة بلاستك",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Black olives whole plastic",
+    "ar": "زيتون أسود حب علبة بلاستك",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green olives pitted plastic",
+    "ar": "زيتون أخضر بدون نوى علبة بلاستك",
+    "category": "Pickles & Olives",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef garlic sauce",
+    "ar": "ثومية الريف",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef tomato paste glass",
+    "ar": "معجون طماطة الريف قنينة زجاج",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Tusam tomato paste glass",
+    "ar": "معجون طماطة توسام قنينة زجاج",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Pomegranate molasses plastic 600",
+    "ar": "دبس رمان بلاستك ٦٠٠ غرام",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Premium dates syrup plastic",
+    "ar": "دبس تمر ممتاز بلاستك",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Date syrup organic",
+    "ar": "دبس تمر عضوي",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef tamarind",
+    "ar": "تمر هندي الريف",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Hummus tahini",
+    "ar": "حمص بطحينة",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Tahini organic",
+    "ar": "طحينية عضوية",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef white vinegar 3.5",
+    "ar": "خل أبيض الريف ٣٫٥",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Vegeta 500",
+    "ar": "فيجيتا ٥٠٠ غرام",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Lemon juice",
+    "ar": "عصير ليمون",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef lemon juice",
+    "ar": "عصير ليمون الريف",
+    "category": "Sauces & Condiments",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Can white beans",
+    "ar": "فاصوليا بيضاء علبة معدنية",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "White beans glass",
+    "ar": "فاصوليا بيضاء مرطبان زجاج",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Red beans glass",
+    "ar": "فاصوليا حمرة مرطبان زجاج",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Chickpeas glass",
+    "ar": "حمص حب مرطبان زجاج",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Small can large broad beans",
+    "ar": "باقلاء حب كبير علبة صغيرة",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Fava beans Iraq",
+    "ar": "باقلاء عراقية",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Lentil soup",
+    "ar": "شوربة عدس",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Stuffed grape leaves 400",
+    "ar": "ورق عنب محشي ٤٠٠ غرام",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Grape leaves",
+    "ar": "ورق عنب",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Grilled eggplant 520",
+    "ar": "باذنجان مشوي ٥٢٠ غرام",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Light tuna in sunflower oil",
+    "ar": "تونة لايت بزيت دوار الشمس",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "White tuna in olive oil",
+    "ar": "تونة بيضاء بزيت الزيتون",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Corned beef",
+    "ar": "لحم معلب كورند بيف",
+    "category": "Cans & Jars",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Oil 3L",
+    "ar": "دهن ٣ لتر",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Oil 1L",
+    "ar": "دهن ١ لتر",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Oil plastic",
+    "ar": "دهن علبة بلاستك",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Corn oil",
+    "ar": "دهن ذرة",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Avocado oil",
+    "ar": "زيت أفوكادو",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Rice 10lb",
+    "ar": "تمن ١٠ باوند",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Vermicelli",
+    "ar": "شعرية",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Bulgur vermicelli #2 10lb",
+    "ar": "برغل بالشعرية نمرة ٢، ١٠ باوند",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Bulgur vermicelli #2 bulk",
+    "ar": "برغل بالشعرية نمرة ٢ جملة",
+    "category": "Oil & Grains",
+    "notes": ""
+  },
+  {
+    "sku": "11546",
+    "en": "Big Dubai chocolate",
+    "ar": "شوكولاتة دبي الكبيرة",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "11257",
+    "en": "Small Dubai chocolate",
+    "ar": "شوكولاتة دبي الصغيرة",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Wafer pistachio",
+    "ar": "ويفر فستق",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Wafer covered chocolate red",
+    "ar": "ويفر مغطى بالشوكولاتة أحمر",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Wafer filled chocolate orange",
+    "ar": "ويفر محشي شوكولاتة برتقال",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Chewy fruit",
+    "ar": "حلاوة مطاطية فواكه",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Jelly candy",
+    "ar": "حلوى جيلي",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Coffee candy",
+    "ar": "حلاوة قهوة",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Chocolate covered candy",
+    "ar": "حلاوة مغطاة بالشوكولاتة",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Marie cookies",
+    "ar": "بسكويت ماري",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Butter cookies",
+    "ar": "بسكويت زبدة",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Biscuits thyme",
+    "ar": "بسكويت زعتر",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Bread sticks classic",
+    "ar": "أصابع خبز كلاسيك",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Super extra nuts",
+    "ar": "مكسرات سوبر إكسترا",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Sunflower seeds salted",
+    "ar": "حب شمس مملح",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Sunflower seeds unsalted",
+    "ar": "حب شمس بدون ملح",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Halva pistachio",
+    "ar": "حلاوة طحينية بالفستق",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Can Baklava 700",
+    "ar": "بقلاوة علبة ٧٠٠ غرام",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Oriental mixed sweet",
+    "ar": "حلويات شرقية مشكلة",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Roll Turkish delight fruit",
+    "ar": "راحة حلقوم رول فواكه",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Turkish delight mastic",
+    "ar": "راحة حلقوم مستكة",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Turkish delight pomegranate",
+    "ar": "راحة حلقوم رمان",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Black can Turkish delight",
+    "ar": "راحة حلقوم علبة سوداء",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Eclairs candy",
+    "ar": "حلاوة إكلير",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "3in1 coffee",
+    "ar": "قهوة ٣ في ١",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Turkish coffee",
+    "ar": "قهوة تركية",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Tea black 200",
+    "ar": "شاي أسود ٢٠٠",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Tea cardamom 400",
+    "ar": "شاي بالهيل ٤٠٠",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Wardah tea 900",
+    "ar": "شاي وردة ٩٠٠",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Indomie vegetable",
+    "ar": "اندومي خضرة",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Figs 500",
+    "ar": "تين ٥٠٠",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Figs 200",
+    "ar": "تين ٢٠٠",
+    "category": "Sweets & Snacks",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef honey clover 16oz",
+    "ar": "عسل برسيم الريف ١٦ أونصة",
+    "category": "Honey & Dates",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef honeycomb",
+    "ar": "شهد عسل الريف",
+    "category": "Honey & Dates",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef honey bear",
+    "ar": "عسل الريف علبة دب",
+    "category": "Honey & Dates",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Honey with nuts",
+    "ar": "عسل بالمكسرات",
+    "category": "Honey & Dates",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Alreef kimia dates",
+    "ar": "تمر كيميا الريف",
+    "category": "Honey & Dates",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Can mango juice",
+    "ar": "عصير مانجو علبة معدنية",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Can pomegranate juice",
+    "ar": "عصير رمان علبة معدنية",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Pomegranate juice glass",
+    "ar": "عصير رمان قنينة زجاج",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Basil drink pomegranate",
+    "ar": "شراب حبق رمان",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Basil drink strawberry",
+    "ar": "شراب حبق فراولة",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Basil drink pineapple",
+    "ar": "شراب حبق أناناس",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Basil drink mango",
+    "ar": "شراب حبق مانجو",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Green lentils",
+    "ar": "عدس أخضر",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Red lentils",
+    "ar": "عدس أحمر",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "White beans bulk",
+    "ar": "فاصوليا بيضاء سائب",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Dry chickpeas split",
+    "ar": "حمص مجروش يابس",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Black eyed peas",
+    "ar": "لوبيا عين سوداء",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Habia",
+    "ar": "حبية",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Slivered almond",
+    "ar": "لوز شرائح",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Dried apricot bulk",
+    "ar": "مشمش مجفف سائب",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Dried apricot square 900",
+    "ar": "مشمش مجفف مربعات ٩٠٠ غرام",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Sumac",
+    "ar": "سماق",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Citric acid",
+    "ar": "ملح الليمون",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Golden raisins",
+    "ar": "زبيب ذهبي",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Dry yellow lemon",
+    "ar": "ليمون يابس أصفر",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Dry black lemon",
+    "ar": "نومي بصرة أسود حب",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Dried black lemon ground",
+    "ar": "نومي بصرة أسود مطحون",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Cardamom whole",
+    "ar": "هيل حب",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Sesame seeds roasted",
+    "ar": "سمسم محمص",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Semolina",
+    "ar": "سميد",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Coconut",
+    "ar": "جوز هند",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Curry spice",
+    "ar": "بهارات كاري",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Seven spices",
+    "ar": "بهارات سبعة",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Nine spices",
+    "ar": "بهارات تسعة",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Shish tawook seasoning",
+    "ar": "بهارات شيش طاووق",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Fish seasoning",
+    "ar": "بهارات سمك",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Bay leaves",
+    "ar": "ورق غار",
+    "category": "Bulk & Spices",
+    "notes": ""
+  },
+  {
+    "sku": "1137",
+    "en": "Ready meals ground chicken",
+    "ar": "وجبة جاهزة دجاج مفروم",
+    "category": "Frozen",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Blue can Baklava",
+    "ar": "بقلاوة علبة زرقاء",
+    "category": "Pantry",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Chicken & beef luncheon",
+    "ar": "لانشون دجاج ولحم",
+    "category": "Pantry",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Oil glass",
+    "ar": "دهن بقنينة زجاج",
+    "category": "Oils",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Oil 2L",
+    "ar": "دهن ٢ لتر",
+    "category": "Oils",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Enjoy mango 1L",
+    "ar": "إنجوي مانجو ١ لتر",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Enjoy mango (size not specified)",
+    "ar": "إنجوي مانجو",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Enjoy guava",
+    "ar": "إنجوي جوافة",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Enjoy cocktails",
+    "ar": "إنجوي كوكتيل",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Yogurt 32oz",
+    "ar": "لبن ٣٢ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Labneh 16oz",
+    "ar": "لبنة ١٦ أونصة",
+    "category": "Dairy",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Fresh turnip pickles sliced 600",
+    "ar": "طرشي شلغم مقطع ٦٠٠ غرام",
+    "category": "Pickles",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Bulgur #2 bulk",
+    "ar": "برغل نمرة ٢ سائب",
+    "category": "Bakery & grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Bulgur #3 bulk",
+    "ar": "برغل نمرة ٣ سائب",
+    "category": "Bakery & grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Bulgur vermicelli #3 bulk",
+    "ar": "برغل بالشعرية نمرة ٣ سائب",
+    "category": "Bakery & grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Cream of rice bulk",
+    "ar": "طحين رز ناعم",
+    "category": "Bakery & grains",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Tea Earl Gray 200",
+    "ar": "شاي إيرل غراي ٢٠٠",
+    "category": "Beverages",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Lemon juice sticker (unconfirmed label)",
+    "ar": "عصير ليمون",
+    "category": "Oils",
+    "notes": ""
+  },
+  {
+    "sku": "",
+    "en": "Pizza chicken",
+    "ar": "بيتزا دجاج",
+    "category": "Frozen",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Spring roll",
+    "ar": "سبرنغ رول",
+    "category": "Frozen",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Yogurt drink original 16oz",
+    "ar": "شراب لبن أصلي ١٦ أونصة",
+    "category": "Dairy",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Green olives 4.4lb",
+    "ar": "زيتون أخضر ٤٫٤ باوند",
+    "category": "Olives & Pickles",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Can chickpeas",
+    "ar": "حمص معلب",
+    "category": "Canned & Pantry",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Tahini 16oz",
+    "ar": "طحينية ١٦ أونصة",
+    "category": "Canned & Pantry",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Tea black 400",
+    "ar": "شاي أسود ٤٠٠ غرام",
+    "category": "Tea & Coffee",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Tea Earl Gray 400",
+    "ar": "شاي إيرل غراي ٤٠٠ غرام",
+    "category": "Tea & Coffee",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Garlic pickles 600",
+    "ar": "مخلل ثوم ٦٠٠ غرام",
+    "category": "Olives & Pickles",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Falih Abu Amba mild plastic",
+    "ar": "عمبة فالح خفيفة عبوة بلاستيك",
+    "category": "Olives & Pickles",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Alreef tomato paste (unspecified package)",
+    "ar": "معجون طماطة الريف",
+    "category": "Canned & Pantry",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  },
+  {
+    "sku": "",
+    "en": "Falafel spice mix bulk",
+    "ar": "بهارات فلافل",
+    "category": "Bulk & Spices",
+    "notes": "New from October 17 order batch; Arabic requires staff approval"
+  }
+]

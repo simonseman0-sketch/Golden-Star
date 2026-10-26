@@ -1,0 +1,1 @@
+V24: Type store name, chain, number, or city. Matching locations appear as clickable results under search. Clicking selects store and fills address automatically. Arrow keys and Enter supported. No dropdown. Retains all prior website functionality. Store records must exist in gs_sales_customers. No database schema change.

@@ -1,0 +1,1 @@
+V46: Fixes empty barcode decode falsely reported as success on iPhone. Native scanner now rejects empty/invalid rawValue, keeps scanning; ZXing decoder always starts from the existing video stream. No database or ordering changes. Requires live iPhone verification.

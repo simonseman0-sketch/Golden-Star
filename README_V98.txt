@@ -1,0 +1,1 @@
+V98: Kroger review and Route Manager IIF line order match the warehouse packing-list picking sequence: Frozen, Dairy, Grocery, Spices. Kroger stays one invoice. Within categories, product insertion order is stable. Meijer/Nino invoice splitting and order logic unchanged. No SQL. Test saved order and IIF against warehouse print before live QuickBooks import.

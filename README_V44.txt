@@ -1,0 +1,1 @@
+V44 scanner decoder replacement: ZXing UPC/EAN reader, diagnostic scanned digits, exact GTIN lookup, same cart add. Test on actual iPhone before production. Requires access to unpkg.com for free ZXing library. No SQL changes.

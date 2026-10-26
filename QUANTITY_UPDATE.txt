@@ -1,0 +1,1 @@
+Quantity update: type total cases next to a search result and click Set or press Enter. Plus 1/4, 1/2, and 1 buttons still increment. Cart quantity remains editable. No SQL changes required.

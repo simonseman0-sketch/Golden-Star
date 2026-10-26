@@ -1,0 +1,1 @@
+Golden Star V62 — Drops Drinks parsing fix. Recognizes DROPS DRINKS as invoice section; retains unknown SKU lines for review instead of silently dropping them. IIF blocked until exact QuickBooks match, quantity and price supplied. Test imports only; account mapping still uses prior defaults.

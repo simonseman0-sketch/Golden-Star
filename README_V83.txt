@@ -1,0 +1,1 @@
+V83 restores the EXACT original warehouse print template for the single Print / Share List action. Removed alternate canvas-drawn PDF so fonts, sizing, spacing, Arabic and invoice group layout use existing makePrintMarkup + print CSS. On iPhone, use Print preview to share/save PDF via iOS controls. No change to backend, route manager, printer output or Supabase.

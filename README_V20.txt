@@ -1,0 +1,1 @@
+V20 adds Print all approved spice sheets next to Print all approved slips. Prints spice-category/bulk-spice items across all stores, retaining store identity, invoice section breaks, English and Arabic, quantity and notes. Unconfirmed flagged spice lines are excluded and a warning explains how many were skipped. No SQL changes.

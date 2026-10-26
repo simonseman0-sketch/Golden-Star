@@ -1,0 +1,1 @@
+2026-10-20: Packing lists now include checkboxes, spice-only printing is separate, and WhatsApp PDF sharing uses Web Share files when supported. Desktop fallback downloads PDF then opens WhatsApp Web for manual attachment. PDF rendering requires online html2pdf.js library from cdnjs.cloudflare.com. No database SQL changes.

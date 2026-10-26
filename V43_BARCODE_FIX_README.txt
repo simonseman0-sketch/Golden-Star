@@ -1,0 +1,1 @@
+V43: UPC camera reliability update. Replaced fixed crop with whole-frame scan, requests continuous autofocus where supported, and adds scan-from-photo fallback. No schema migration required. Test a known barcode on the actual iPhone after Netlify deployment. Exact GTIN matching and existing cart logic unchanged.

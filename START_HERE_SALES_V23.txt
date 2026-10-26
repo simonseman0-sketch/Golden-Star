@@ -1,0 +1,62 @@
+GOLDEN STAR V22 + PRIVATE SALES ORDER HUB (NETLIFY STATIC)
+====================================================
+
+THIS ZIP IS THE NETLIFY DEPLOYMENT. It contains the original V22 Packing Desk,
+unchanged, and a replacement standalone Sales Order Hub at /salesman.html.
+
+WHY THE LAST ZIP DIDN'T WORK:
+The previous Sales Order Hub was a Python/SQLite server. Netlify drag-and-drop
+hosting cannot execute that persistent Python app. This version is plain HTML,
+CSS, and JavaScript and uses your Supabase project for authentication and saved
+orders. No Python server or npm build is required on Netlify.
+
+DO THESE STEPS IN ORDER:
+1. Save a backup of the CURRENT LIVE Netlify deployment first. Keep V22 source ZIP.
+2. In Supabase > SQL Editor, run the SEPARATE (private) file:
+     Golden_Star_V22_Sales_Hub_PRIVATE_Supabase_Setup.sql
+   It creates four NEW gs_sales_* tables and imports only 131 selected stores
+   and 1,056 retail products. It does not update any existing Packing Desk tables.
+   Do NOT upload the setup SQL or any source spreadsheets to Netlify.
+3. Supabase > Authentication > Users: Add/invite the salesman by email, with a
+   password. Signups are NOT available on the website.
+4. In Supabase SQL Editor, run the separate:
+     Golden_Star_V22_Sales_Hub_Grant_Access.sql
+   First replace SALESMAN_EMAIL_HERE with the salesman's exact email.
+   An existing Supabase account without a row in gs_sales_staff CANNOT view
+   sales stores/orders.
+5. Netlify > Deploys: upload the THIS ZIP (or extracted root directory).
+   Do not upload the earlier Python-based Sales Hub zip.
+6. Test BOTH /index.html (original Order Translator) and /salesman.html
+   (new login, ordering, PDF) before giving the link to the salesman.
+
+NOTE ON SECURITY:
+- Netlify serves the salesman.html URL publicly, but product/customer data
+  and order records are protected in Supabase by per-user RLS policies.
+- User email/password authentication happens in Supabase; there is no public
+  sign-up, sample login, or hard-coded password.
+- Do not put Supabase secret/service_role keys anywhere in the Netlify site.
+- A rep can view own orders; admins can view all, if role='admin' is granted.
+- The browser keeps unsent drafts on that device and saves submitted orders
+  to Supabase. Use a trusted work device for customer information.
+
+ORDER ENTRY:
+- Search a store by number, name, city; + New customer is saved to Supabase.
+- Search items by English, Arabic, SKU, or UPC.
+- Tap +1, +1/2, +1/4; type any decimal case count in the order section.
+- + Item not listed adds a free-text product; optionally save it to catalog.
+- Press Submit order to save to Supabase, and Print / Save PDF for a single
+  full-order sheet followed by a separate spice-only sheet.
+- 'CHECK SKU' means barcode-supported suggestion, NOT a verified warehouse SKU.
+  Unmatched products show NO SKU; no similar-name guessing.
+
+WHAT IS NOT INCLUDED:
+- Automatic pushing from the new Sales Hub into the legacy translator or
+  ERP/QuickBooks. The original Order Translator workflow stays unchanged.
+- Netlify alone doesn't provide a standalone server/password database; the
+  private Supabase setup above is required for the new sales page to work.
+- This app was tested with a mocked Supabase service in Chromium and syntax
+  checks; live Supabase setup and a real Netlify deployment must be tested.
+
+IMPORTANT: The initial customer/product seed operation intentionally DOES NOT
+overwrite any matching IDs in an existing gs_sales_* database. If these tables
+already exist, review them before re-running the setup.

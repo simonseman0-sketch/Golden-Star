@@ -1,0 +1,1 @@
+V99: Meijer-only salesman invoice family group 6 for SKUs 12012 and 11050, ahead of admin category assignments; no other business rules altered. Existing PDF-to-IIF and route manager had this rule already. No SQL.

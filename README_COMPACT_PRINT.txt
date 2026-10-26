@@ -1,0 +1,1 @@
+V24 compact packing slip: tighter printable item rows, reduced headers and invoice-break gaps, no bottom packing disclaimer. PDF export styles also reduced. Only salesman.js and salesman.css modified from the previous continuous invoice-break build. For Chrome print browser-generated date/URL/page-number headers, uncheck Headers and footers in More settings.

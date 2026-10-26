@@ -1,0 +1,1 @@
+V106: Multi-page QuickBooks Barcode Print fix. Parses every page including continuation pages, handles repeated/missing table headers and per-page footers, displays source page and item counts, warns on empty/unrecognized pages, retains V105 UPC-A/EAN-13 and total validation. No migration. Validate using a real multi-page QuickBooks PDF before production.

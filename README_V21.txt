@@ -1,0 +1,1 @@
+V21: Spice sheets select loose fractional-case ingredient lines (0.25/0.5/0.75) only, not all Bulk & Spices category items. Packaged 10lb bulgur/vermicelli and packaged groceries are excluded. Full packing slips unchanged. The grouping convention is based on salesman sample orders; confirm with the spices employee. No new SQL.

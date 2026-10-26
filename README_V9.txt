@@ -1,0 +1,1 @@
+V9: Strong contrast Golden Star logo for screen and printable slips. English product column uses the exact original sales-rep line, including punctuation, quantity, and item notes; standardized match is only secondary. Arabic remains editable. Invoice grouping and all V8 features retained. Deploy ZIP to Netlify.

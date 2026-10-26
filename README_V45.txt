@@ -1,0 +1,1 @@
+V45: iPhone barcode diagnostics + native BarcodeDetector when supported + ZXing fallback reusing same video stream, without opening a second camera. Exact GTIN matching and existing cart unchanged. Camera success on actual iPhone still must be verified. No SQL changes.
