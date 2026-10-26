@@ -1,0 +1,1 @@
+V77: Added Share PDF to WhatsApp next to Print List. Uses existing sharePDFWhatsApp full-order PDF generation and packingFileName(store,delivery). Leaves native Print List unchanged. iPhone share sheet lets user choose WhatsApp and confirm sending. Falls back to a named PDF download when native file sharing is unavailable. No SQL changes.

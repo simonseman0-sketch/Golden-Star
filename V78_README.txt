@@ -1,0 +1,1 @@
+V78 WhatsApp PDF share dependency fix. Loads html2canvas and jsPDF explicitly instead of assuming the html2pdf bundle exports them as window globals. Print List, order logic, naming, and other features unchanged. Requires internet to load the PDF renderer; iPhone sharing support varies.

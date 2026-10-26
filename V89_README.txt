@@ -1,0 +1,1 @@
+V89: Direct named-PDF sharing now first attempts to capture the original Print List HTML and its print CSS. On browsers that cannot rasterize SVG foreignObject, it falls back to the earlier V88 PDF for functional sharing. Native printing and all data logic unchanged. iPhone visual parity is not yet verified.

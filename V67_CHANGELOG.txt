@@ -1,0 +1,5 @@
+V67 changes from V66:
+- Meijer orders only: SKUs 12012 and 11050 are placed together in their own invoice group, distinct from grocery and frozen.
+- 12012 QuickBooks catalog barcode fixed to 00850072422978.
+- No changes to saved Supabase item/price overrides, descriptions, pricing defaults, or QuickBooks-assigned blank IIF DOCNUM fields.
+- The barcode is catalog matching metadata, not an IIF invoice column.

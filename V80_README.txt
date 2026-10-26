@@ -1,0 +1,1 @@
+V80 offline PDF share/download: removed CDN dependency. Draws full packing list as pages using canvas and encodes into image-based PDF; native Print List unchanged. Check rendering/share on iPhone, especially Arabic.

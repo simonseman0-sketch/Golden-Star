@@ -1,0 +1,1 @@
+V79: Route Manager shows invoice category names, includes empty-category-free invoice counts, reads current Product Manager category from Supabase, defaults biryani SKUs 1141/1142 to Frozen when no assigned category, preserves Meijer special 12012/11050 and old export protections. No new SQL. Test with QuickBooks backup company first.

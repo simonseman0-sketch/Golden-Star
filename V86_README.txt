@@ -1,0 +1,1 @@
+V86: Fixed browser history.replaceState shadowing bug on salesman deep-links. Added inline Save Quantities on Daily Route Order Manager; uses V71 gs_sales_update_order RPC to update original order ID; clears stale IIF preview. No new SQL if V71 SQL already installed. Does not alter QuickBooks pricing, matching, or invoice-number rules. Test before production.

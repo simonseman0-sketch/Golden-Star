@@ -1,0 +1,1 @@
+V87: repaired duplicate malformed assignment in salesman.js which stopped page script execution. All other V86 code retained. Cache bust salesman.js reference. No SQL changes. Test loading prior order and updating original ID before production.

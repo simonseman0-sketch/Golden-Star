@@ -1,0 +1,1 @@
+V73: Meijer/Nino invoice category now prioritizes admin gs_sales_products.pick_category over saved old invoice_category; fresh items and printed PDFs also use this source. SKU 1142 remains in known Frozen fallback. Kroger grouping unchanged. No database schema or SQL change. Refresh salesman portal after admin edits.

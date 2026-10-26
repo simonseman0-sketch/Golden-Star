@@ -1,0 +1,1 @@
+V97 Meijer/Nino Pistachio Wafer split: wafer-with-pistachio products get dedicated Group 4 ahead of stored Grocery/Frozen category. Implemented in salesman.js, route-manager.js and quickbooks-pdf.js. No SQL changes. No print CSS changes. Confirm with actual product SKU/name and test import before live QuickBooks.

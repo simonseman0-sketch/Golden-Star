@@ -1,0 +1,1 @@
+V84: Restores V82 native PDF file-share path to the existing single Print / Share List button, while preserving V83 original Print List HTML/CSS print template as fallback. No other code modifications. IMPORTANT: The file-shared PDF is still the V82 canvas-rendered design; native print uses the original design.

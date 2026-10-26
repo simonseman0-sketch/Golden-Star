@@ -1,0 +1,1 @@
+V94 Arabic Review Queue: To Review shows only unreviewed products. Successful Save / Mark reviewed removes the product from To Review, moves it to Reviewed & Saved, and updates remaining and reviewed counts. The Missing Arabic tab lists only missing and unreviewed products. Existing Supabase save RPC and salesman integration unchanged. No SQL needed.

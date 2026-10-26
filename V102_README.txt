@@ -1,0 +1,1 @@
+V102: Adds Code 128 reader to Quagga2 live and photo scanner. Preserves UPC/EAN handling, requires three live confirmations for Code 128, and only matches Code 128 values to exact catalog barcodes (with existing GTIN leading-zero normalization for numeric UPC/EAN-length data). No Supabase or invoice changes. Test on actual iPhone before production.

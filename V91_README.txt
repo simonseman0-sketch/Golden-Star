@@ -1,0 +1,1 @@
+V91: restores Print List to original printData(payload(), full) browser-print workflow. No dependency on Netlify PDF function. Shared named-PDF export is deliberately not used by this button. No Supabase changes.

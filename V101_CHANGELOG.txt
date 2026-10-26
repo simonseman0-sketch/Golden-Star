@@ -1,0 +1,1 @@
+V101: Route Manager preview case quantity 0 excludes the row from the generated IIF; excluded lines do not block on item/description/price. Empty invoice groups are omitted. All-zero exports are blocked. Saved order, permanent product overrides, and all existing invoice category, customer and routing rules are unchanged.

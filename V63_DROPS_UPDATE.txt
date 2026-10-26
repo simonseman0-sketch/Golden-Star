@@ -1,0 +1,1 @@
+V63: added SKU 44537/44538/44539/44540/44541 to bundled QuickBooks item list. Confirmed price $24.00/case and sales description 250ml 24/case for each. Review generated IIF before importing. Existing portal logic unchanged.
